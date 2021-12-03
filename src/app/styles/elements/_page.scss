@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  min-height: 100%;
+  width: auto;
+  color: rgba($COLOR-BLACK,0.8);
+  font-family: $primary_font;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background: #red;
+  transition: opacity .2s ease 0s;
+  &.is-loading {
+    opacity: 0;
+    visibility: hidden;
+    &.is-visible {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+#react-page, .page {
+  display: flex;
+  flex: 1 1 auto;
+  width: 100%;
+  flex-direction: column;
+}
+
+
+main,
+.js-wrapper {
+  flex: 1 0 auto;
+ /* @include media('screen', '<1025px', 'portrait') {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+  }*/
+}
+

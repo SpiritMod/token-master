@@ -1,0 +1,61 @@
+@import '../../../../styles/settings/settings.scss';
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 32px;
+  margin: 0 -12px 8px 0;
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  input {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 1.45;
+    letter-spacing: 0.005em;
+    color: rgba($COLOR-BLACK, 0.8);
+
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgba($COLOR-BLACK, 0.1);
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-right: 8px;
+    padding: 0 8px;
+
+    transition: border-color 0.15s ease 0s,
+                box-shadow 0.15s ease 0s;
+    &:focus, &:focus-visible {
+      border-color: $COLOR-FIGMA-BLUE;
+      box-shadow: 0 0 0 1px $COLOR-FIGMA-BLUE;
+      outline: none;
+    }
+  }
+
+  button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    font-size: 32px;
+    background: transparent;
+    border-radius: 2px;
+    color: rgba($COLOR-BLACK,0.8);
+    cursor: pointer;
+    transition: all 0.15s ease 0s;
+    &:hover {
+      background: rgba($COLOR-BLACK,0.06);
+      svg {
+        fill: rgba($COLOR-BLACK,1);
+      }
+    }
+    svg {
+      fill: rgba($COLOR-BLACK,0.8);
+    }
+  }
+}

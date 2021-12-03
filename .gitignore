@@ -1,0 +1,27 @@
+# dependencies
+/node_modules
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.idea
+.idea/deployment.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/start-com.iml
+.idea/workspace.xml
+*.DS_Store
+*node_modules
+node_modules/*
+.idea/vcs.xml
+.eslintcache

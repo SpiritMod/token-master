@@ -1,0 +1,46 @@
+@import '../../../styles/settings/settings.scss';
+
+.item {
+  margin: 0 -16px 0;
+  border-bottom: 1px solid $COLOR-GRAY;
+  &:last-child {
+    border-bottom: none!important;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4px 0 16px;
+  height: 40px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.005em;
+  color: rgba($COLOR-BLACK, 0.8);
+}
+
+.content {
+  padding: 8px 16px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.col_left {
+  width: 30%;
+  padding-right: 16px;
+}
+
+.col_right {
+  width: 70%;
+}
+
+.pointer {
+  cursor: pointer;
+}

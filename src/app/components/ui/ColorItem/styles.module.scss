@@ -1,0 +1,62 @@
+@import '../../../styles/settings/settings.scss';
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 32px;
+  width: 100%;
+  padding: 8px 0;
+}
+
+.box {
+  position: relative;
+  margin: 0 8px 0 0;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url("data:image/svg+xml;utf8,%3Csvg%20width%3D%226%22%20height%3D%226%22%20viewBox%3D%220%200%206%206%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M0%200H3V3H0V0Z%22%20fill%3D%22%23E1E1E1%22/%3E%3Cpath%20d%3D%22M3%200H6V3H3V0Z%22%20fill%3D%22white%22/%3E%3Cpath%20d%3D%22M3%203H6V6H3V3Z%22%20fill%3D%22%23E1E1E1%22/%3E%3Cpath%20d%3D%22M0%203H3V6H0V3Z%22%20fill%3D%22white%22/%3E%3C/svg%3E%0A");
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.border {
+  border: 1px solid $COLOR-GRAY;
+}
+
+.color {
+  width: 8px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.opacity {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0.61;
+  &__fill {
+    opacity: 1;
+  }
+}
+
+.title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 1.45;
+  letter-spacing: 0.005em;
+  color: rgba(0, 0, 0, 0.8);
+  width: calc( 100% - 24px );
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+

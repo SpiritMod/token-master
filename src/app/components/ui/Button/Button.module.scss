@@ -1,0 +1,82 @@
+@import '../../../styles/settings/settings.scss';
+
+.base {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  box-shadow: none;
+  padding: 6px 15px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 6px;
+  box-sizing: border-box;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+}
+
+.primary {
+  background-color: $COLOR-FIGMA-BLUE;
+  color: $COLOR-WHITE;
+  border: none;
+  &:hover {
+    background-color: darken($COLOR-FIGMA-BLUE, 15%);
+    cursor: pointer;
+  }
+}
+
+.secondary {
+  background-color: $COLOR-WHITE;
+  color: rgba($COLOR-BLACK, 0.8);
+  border: 1px solid rgba($COLOR-BLACK, 0.8);
+
+  &:hover {
+    border-color: darken($COLOR-FIGMA-BLUE, 15%);
+    color: darken($COLOR-FIGMA-BLUE, 15%);
+    cursor: pointer;
+    //text-decoration: underline;
+  }
+}
+
+.text {
+  border: none!important;
+  color: rgba($COLOR-BLACK, 0.8);
+  &:hover {
+    color: darken($COLOR-FIGMA-BLUE, 15%);
+    svg {
+      path {
+        fill: darken($COLOR-FIGMA-BLUE, 15%);
+      }
+    }
+  }
+  svg {
+    width: 32px;
+    height: 32px;
+    fill: rgba($COLOR-BLACK, 0.8);
+  }
+  &.disabled {
+    background-color: transparent!important;
+    color: rgba($COLOR-BLACK, 0.3);
+    svg {
+      path {
+        fill: rgba($COLOR-BLACK, 0.3);
+      }
+    }
+  }
+}
+
+.disabled {
+  pointer-events: none;
+  background-color: #b3b3b3;
+  color: rgba($COLOR-WHITE, 1);
+  border: 1px solid #b3b3b3;
+  &:hover {
+    background-color: #b3b3b3;
+    color: rgba($COLOR-WHITE, 1);
+    border: 1px solid #b3b3b3;
+  }
+}

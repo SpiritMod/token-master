@@ -1,0 +1,44 @@
+.chrome-picker {
+  width: 100%!important;
+  border-radius: 0!important;
+  box-shadow: none!important;
+  box-sizing: initial!important;
+  font-family: inherit!important;
+
+  > div {
+    &:nth-child(1) {
+      border-radius: 0!important;
+    }
+    &:nth-child(2) {
+      padding: 16px 16px 0!important;
+    }
+
+    > div {
+      &:nth-child(1) {
+        > div {
+          &:nth-child(2) {
+            > div {
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(2) {
+    border-radius: 7px;
+  }
+
+  .hue-horizontal {
+    border-radius: 7px;
+  }
+
+  input {
+    &:focus, &:focus-visible {
+      border-color: $COLOR-FIGMA-BLUE!important;
+      box-shadow: 0 0 0 2px $COLOR-FIGMA-BLUE!important;
+      outline: none;
+    }
+  }
+}

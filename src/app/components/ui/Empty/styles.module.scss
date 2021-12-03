@@ -1,0 +1,30 @@
+@import '../../../styles/settings/settings.scss';
+
+.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  svg {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 1.45;
+  letter-spacing: 0.005em;
+  color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}

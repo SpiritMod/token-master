@@ -1,0 +1,49 @@
+@import '../../styles/settings/settings.scss';
+
+.layout {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  position: relative;
+  padding: 40px 16px 16px;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 40px;
+  border-bottom: 1px solid $COLOR-GRAY;
+  background: #fff;
+  z-index: 99;
+  padding: 0 16px;
+}
+
+.main {
+  display: flex;
+  flex: 1 1 auto;
+  width: 100%;
+}
+
+.link {
+  display: block;
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  &:hover {
+    svg {
+      path {
+        fill: darken($COLOR-FIGMA-BLUE, 15%);
+      }
+    }
+  }
+  svg {
+    width: 32px;
+    height: 32px;
+    path {
+      fill: rgba($COLOR-BLACK, 0.8);
+    }
+  }
+}

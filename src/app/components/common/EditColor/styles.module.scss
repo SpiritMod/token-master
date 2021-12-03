@@ -1,0 +1,51 @@
+@import '../../../styles/settings/settings.scss';
+
+.picker {
+  margin: 0 -16px 0;
+}
+
+.pipette {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  input {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    opacity: 0;
+    border: none;
+  }
+  label {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    display: block;
+    &:hover {
+      svg {
+        fill: rgba($COLOR-BLACK,1);
+      }
+    }
+    svg {
+      fill: rgba($COLOR-BLACK,0.8);
+    }
+  }
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 12px;
+  button {
+    margin: 0;
+  }
+}
