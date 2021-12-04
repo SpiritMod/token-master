@@ -3,7 +3,7 @@
 
 Token Master is a plugin for Figma that automates your color design tokens. With Token Master, you can edit styles in design tokens and quickly create new color modes. Just pick tokens with the same colors and edit them at once!
 
-Link to the Figma plugin page
+Link to the Figma plugin page (Soon) 
 
 # **How it works**
 
