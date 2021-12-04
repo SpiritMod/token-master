@@ -46,13 +46,14 @@ Style [dark] / color-name
 
 <aside>
 ⚠️ Use unique names for the color mode ID.
+  
 Bad example:
-❌*Light*India
-❌*Light*
-
+❌ LightIndia
+❌ Light
+  
 Good example:
-✅Light
-✅India
+✅ Light
+✅ India
 
 </aside>
 
