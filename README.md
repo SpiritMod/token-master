@@ -12,11 +12,11 @@ Link to the Figma plugin page
 3. To edit a style, click on it. Then, you can use the eyedropper or the color picker in the modal window to select a color.
 4. Also, you can copy the whole group of your design tokens and create a new color mode.
 
-![Figma cover-2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1ee1b438-ac40-4e19-9c14-bd26a54389af/Figma_cover-2.png)
+![Figma cover-2.png](https://github.com/SpiritMod/token-master/blob/master/assets/Figma_cover-2.png?raw=true)
 
-![Figma cover.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c82da75-17e6-4136-9bed-f1ede181b374/Figma_cover.png)
+![Figma cover.png](https://github.com/SpiritMod/token-master/blob/master/assets/Figma_cover.png?raw=true)
 
-![Figma cover-1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9e5eeb39-9e5d-4cf3-bae0-f42d969d962d/Figma_cover-1.png)
+![Figma cover-1.png](https://github.com/SpiritMod/token-master/blob/master/assets/Figma_cover-1.png?raw=true)
 
 # **Styles name examples**
 
